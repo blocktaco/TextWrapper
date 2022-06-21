@@ -1,8 +1,7 @@
 const { UltimateTextToImage } = require("ultimate-text-to-image");
 
 async function NewRenderTextAsync(data) {
-    console.log(data.text)
-    console.log(data.options)
+    console.log(data)
 }
 
 /*new UltimateTextToImage(`Monkey`, {
