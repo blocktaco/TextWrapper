@@ -20,3 +20,9 @@ function RenderTextClass.new(Text, Options)
 end
 
 return RenderTextClass
+
+--[[
+
+RenderTextClass.new('queercoded.wtf', {fontFamily = 'Tahoma', fontColor = Color3.new(1, 1, 1):ToHex()})
+
+]]
