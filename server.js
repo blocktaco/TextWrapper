@@ -6,7 +6,7 @@ server.use(express.json());
 
 server.post('/', function(req, res) {
     (async () => {
-        res.send(await RenderTextClassHandler.NewRenderTextAsync(req.body.body))
+        res.send(await RenderTextClassHandler.NewRenderTextAsync(req.body))
     })()
 })
 
