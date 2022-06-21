@@ -2,7 +2,7 @@ const { UltimateTextToImage } = require("ultimate-text-to-image");
 
 async function NewRenderTextAsync(data) {
     const TextToImageResult = new UltimateTextToImage(data.text, data.options)
-    TextToImageResult.render().toFile('1.png')
+    TextToImageResult.render().toFile("result.png");
     
     return {
         data: TextToImageResult.render().toBuffer().toString('base64'),
