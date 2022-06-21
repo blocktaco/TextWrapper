@@ -1,17 +1,15 @@
 {
-  "name": "external-textmanager-api",
+  "name": "ultimatetexttoimage",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.18.1",
-    "merge-images": "^2.0.0"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "ultimate-text-to-image": "^1.0.0"
+  }
 }
